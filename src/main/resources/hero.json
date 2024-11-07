@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nome": "Superman",
+    "poderes": "Super força, voo, visão de calor",
+    "identidadeSecreta": "Clark Kent",
+    "universo": "DC",
+    "urlAvatar": "https://exemplo.com/superman-avatar.png"
+  },
+  {
+    "id": 2,
+    "nome": "Batman",
+    "poderes": "Habilidades de combate, inteligência estratégica",
+    "identidadeSecreta": "Bruce Wayne",
+    "universo": "DC",
+    "urlAvatar": "https://exemplo.com/batman-avatar.png"
+  },
+  {
+    "id": 3,
+    "nome": "Homem-Aranha",
+    "poderes": "Agilidade, sentido-aranha, escalada de paredes",
+    "identidadeSecreta": "Peter Parker",
+    "universo": "Marvel",
+    "urlAvatar": "https://exemplo.com/spiderman-avatar.png"
+  },
+  {
+    "id": 4,
+    "identidadeSecreta": "Diana Prince",
+    "nome": "Mulher-Maravilha",
+    "poderes": "Força sobre-humana, voo, laço da verdade",
+    "universo": "DC",
+    "urlAvatar": "https://exemplo.com/wonderwoman-avatar.png"
+  },
+  {
+    "id": 5,
+    "nome": "Wolverine",
+    "poderes": "Fator de cura, garras retráteis, sentidos aguçados",
+    "identidadeSecreta": "Logan",
+    "universo": "Marvel",
+    "urlAvatar": "https://exemplo.com/wolverine-avatar.png"
+  }
+]

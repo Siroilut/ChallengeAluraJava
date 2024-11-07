@@ -1,4 +1,4 @@
-package model;
+package challengeAlura.model;
 
 import jakarta.annotation.Nullable;
 import jakarta.persistence.Column;
@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name="heróis")
+@Table(name="herois")
 public class Hero {
 
     @Column(nullable = false)
