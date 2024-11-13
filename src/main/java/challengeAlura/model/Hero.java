@@ -14,6 +14,7 @@ import jakarta.persistence.Table;
 @Table(name="herois")
 public class Hero {
 
+
     @Column(nullable = false)
     private String nome;
     @Column(nullable = false)

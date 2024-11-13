@@ -21,6 +21,10 @@ public class HeroController {
 
         return heroisRepository.findAll();
     }
+    @GetMapping("/search")
+    public List<Hero> buscarPoderes(@RequestParam String poderes)   {
+        return heroisRepository.findByPoderesContainingIgnoreCase(poderes);
+    }
 
     @PostMapping()
     public List<Hero> adicionarHero(@RequestBody List<Hero> hero){
@@ -38,9 +42,9 @@ public class HeroController {
     public String deletarHero(@RequestBody Hero hero){
         if (hero.getId() > 0){
             heroisRepository.delete(hero);
-            return "removido com sucesso!";
+            return "Heroi foi removido com sucesso!";
         }
-        return  "heroi não encontrado!";
+        return  "Heroi não encontrado!";
     }
 
 }

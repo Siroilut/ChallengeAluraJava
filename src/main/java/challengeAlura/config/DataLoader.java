@@ -28,7 +28,7 @@ public class DataLoader implements CommandLineRunner {
             System.out.println("Iniciando o carregamento de dados...");
 
             try {
-                // Tente carregar o arquivo hero.json do classpath
+                // carregar o arquivo hero.json do classpath
                 InputStream inputStream = new ClassPathResource("hero.json").getInputStream();
                 List<Hero> heros = mapper.readValue(inputStream, typeReference);
                 System.out.println("Dados carregados com sucesso!");
